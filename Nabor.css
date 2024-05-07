@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+  } 
+  .stylmaindiv {
+    position: relative; 
+    /* Добавили посишн релатив для того, что бы дочерние блоки с посишн абсолют оставались в родительском блоке */
+    /* Далее смещая дочерний блок на 5 пикселей влево или вправо он смещается относительно родительского блока, в нашем случае divMain */
+      border: 1px solid rgb(235, 54, 72,0.6);
+      height: 300px;
+      width: 300px;
+      margin:auto;
+      margin-bottom: 22px;
+    }
+  .tododiv {
+    position: absolute;
+    border: 1px solid rgb(235, 54, 72);
+    width: 100px; 
+    height: 100px;
+    border-radius: 5%;
+    z-index: 10;
+    background-color:rgb(191, 187, 201);
+  }
